@@ -1,0 +1,97 @@
+
+/* General styles for the body */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    background-color: #f3eeee;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    height: 100vh;
+    margin: 1;
+}
+
+/* Styling the form container */
+.form-container {
+    background-color: #eee9e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(180, 177, 177, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Centered title for the form */
+.form-container h2 {
+    margin-bottom: 19px;
+    color: #333;
+}
+
+/* Label styling */
+form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #555;
+    text-align: left;
+}
+
+/* Input field and textarea styling */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+/* Button styling */
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #10e943;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #14b637;
+}
+
+/* Refresh captcha button styling */
+#refreshCaptcha {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: #950eca;
+    color: rgb(243, 240, 240);
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Refresh captcha button hover effect */
+#refreshCaptcha:hover {
+    background-color: #9b16d8;
+}
+
+/* Confirmation message styling */
+.hidden {
+    display: none;
+}
+
+#confirmationMessage {
+    background-color: #b4e6b1;
+    color: #020802;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
